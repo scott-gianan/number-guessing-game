@@ -14,14 +14,15 @@
 
     <div class="form">
       <label for="guessField">Enter a guess: </label>
-      <input type="number" min="1" max="100" required id="guessField" class="guessField" disabled>
-      <input type="submit" value="Submit guess" class="guessSubmit" disabled>
+      <input type="number" min="1" max="100" required id="guessField" class="guessField">
+      <input type="submit" value="Submit guess" class="guessSubmit">
     </div>
 
     <div class="resultParas">
       <p class="guesses"></p>
       <p class="lastResult"></p>
       <p class="lowOrHi"></p>
+      <button value="reset" onclick="window.location.reload();" hidden>Start New Game</button>
     </div>
 
     

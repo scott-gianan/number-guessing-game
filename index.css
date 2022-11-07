@@ -17,3 +17,11 @@ html {
     color: white;
     padding: 3px;
   }
+
+  .lastResultCorrect {
+    background-color: green;
+  }
+
+  .gameOver {
+    background-color: red;
+  }
